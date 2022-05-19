@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Prometheus';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Blogs';
+    : "What's New At Prometheus";
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
