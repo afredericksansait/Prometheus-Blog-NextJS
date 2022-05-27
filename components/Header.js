@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../public/PR Logo with Icon.png';
+import logo from '../public/PRLogowithIcon.png';
 
 export default function Header({ name }) {
   return (
